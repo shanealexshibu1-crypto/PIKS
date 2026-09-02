@@ -1,3 +1,111 @@
+# PIXS
+
+Pixs is a 6 legged hexapod with 3-dof per leg i.e a hexapod with 18-dof. Custom made with a final volume box of 32 cm x 19.2 xm x 29.1 cm
+
+
+
+## Printing Parts
+
+Material used is PET-G
+
+| Setting                |  value |
+| ---------------------- | ------------------: |
+| **Nozzle**             |           **240°C** |
+| **Bed**                |            **80°C** |
+| **Part cooling**       |          **30–50%** |
+| **Print speed**        |      **40–60 mm/s** |
+| **First-layer nozzle** |           **245°C** |
+| **First-layer bed**    |            **80°C** |
+
+## Assembly
+
+1. Print 6 copies of Coxa Link 1_Part1, Coxa link 1_Part 2, Coxa Link 2_Part 1, Coxa Link 2_Part 2, Femur Part 1, Femur Part 2, Tibia, Servo Mount Coxa Bottom, Servo Mount Coxa Middle
+   ,Servo Mount Coxa Top, Servo Mount Femur Bottom, Servo Mount Femur Middle,Servo Mount Femur Top, Servo Mount Tibia Bottom, Servo Mount Tibia Middle, Servo Mount Tibia Top.
+   
+2. Print 1 copy of Body Base and Body Top.
+
+3. Insert One 606zz Ball Bearings into all 18 bottom of the servo mounts.
+
+4. Then attach the Middle and top attachments of the Servo Mount. Secure this with 4pcs 45mm m3 Screw and heated inserts
+
+5. Attach the Servo Horns that come with the Servo to all the servos.
+
+6. Combine Coxa Link 1_Part 1 , Coxa Link 1_Part 2 and Coxa Servo Joint. Secure this with 3 pcs of m3 x 10mm screws and heated inserts.Repeat this 6 times.
+
+7. Combine Coxa Link 2_Part 1, Coxa Link 2_Part 2 and Femur Servo Joint. Secure this with 3pcs of m3 x 10mm Screwa and heated inserts. Repeat this 6 times.
+
+8. Combine the products from step 6 and step 7  using 5 pcs of m3x15mm Screws and heated inserts.Repeat this 6 times.
+
+9. Attach the Femur Part 1 , femur Part 2, Tibia servo joint with m3 x 10mm screws and heated inserts.Repeat 6 times.
+
+10. combine the femur with the product from step 8 with m3 x 10mm screws and heated inserts.Repeat 6 times.
+
+11. finally cominbe the tibia and the product from step 10 with m3x10mm screws.Repeat 6 times.
+
+12. Now you have finished 6 legs.
+
+13. Next take the legs and securthem in the designated spots with m3 x 10 mm screws. Repeat this 6 times.
+
+14. Now u have a finished Assembled hexapod.
+
+
+## Circuit Diagram
+
+<img width="1634" height="813" alt="Screenshot 2026-09-01 at 8 35 06 PM" src="https://github.com/user-attachments/assets/8cabc633-a545-4dae-bd83-be9735f52ece" />
+
+## Gallery
+
+### One of the Finished Servo Mount
+
+<img width="711" height="739" alt="Screenshot 2026-09-01 at 5 22 45 PM" src="https://github.com/user-attachments/assets/5c78f2e9-20a7-4889-9066-00b9b4e4fbd3" />
+
+### Finished Leg Side View
+
+<img width="863" height="654" alt="Screenshot 2026-09-01 at 5 24 09 PM" src="https://github.com/user-attachments/assets/1820d847-b7ed-40ce-92f7-9675c67d3e37" />
+
+### Base Plate(Body)
+
+<img width="1276" height="611" alt="Screenshot 2026-09-01 at 5 28 04 PM" src="https://github.com/user-attachments/assets/222c6aee-7a26-47d9-afcb-0d8cfeed385a" />
+
+### Fully assembled Hexapod(Front View)
+
+<img width="862" height="649" alt="Screenshot 2026-09-01 at 5 33 56 PM" src="https://github.com/user-attachments/assets/9723bb3d-ddad-48d9-87de-6d28948ebb3a" />
+
+
+### Fully assembled Hexapod(Side View)
+
+<img width="1045" height="669" alt="Screenshot 2026-09-01 at 5 34 15 PM" src="https://github.com/user-attachments/assets/98e0133d-c1bf-4cfd-9c07-b1b12848a07d" />
+
+
+### Fully assembled Hexapod(Top View)
+
+<img width="697" height="705" alt="Screenshot 2026-09-01 at 5 34 48 PM" src="https://github.com/user-attachments/assets/78eedcc6-e506-414b-bed8-b90b90fa95d9" />
+
+
+
+## Firmware 
+
+### Features:
+
+1. The firmware uses a tripod gait that follows the bezier curve.
+2. Uses a 3rd party PS2 style controller to control the Hexapod, Left joystick for movement and right joystick for rotation and height adjustment.
+
+### Installation
+
+  1.Download the latest version of Arduino IDE
+  
+  2.Download the firmware from my github repo.
+  
+  3.Open the firmware with Arduino IDE.
+  
+  4.Connect the Arduino Mega to the laptop via Usb Cable.
+  
+  5.Finally, verify and upload the code to the Mega.
+  
+  6.Enjoy a fully working Hexapod.
+
+
+
 ## BOM
 
 |Part Name                 |Qty|Pcs per Qty|Cost (AED)|Purchase Place|Purchase Link|
