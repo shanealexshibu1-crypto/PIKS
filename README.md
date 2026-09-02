@@ -16,6 +16,7 @@ Material used is PET-G
 | **Print speed**        |      **40–60 mm/s** |
 | **First-layer nozzle** |           **245°C** |
 | **First-layer bed**    |            **80°C** |
+| **Infill               |          **10-15%** |
 
 ## Assembly
 
