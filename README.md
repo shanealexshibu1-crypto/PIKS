@@ -18,6 +18,8 @@ Material used is PET-G
 | **First-layer bed**    |            **80°C** |
 | **Infill**             |          **10-15%** |
 
+Do not print anything from the Assembly CAD section it is for reference only
+
 ## Assembly
 
 1. Print 6 copies of Coxa Link 1_Part1, Coxa link 1_Part 2, Coxa Link 2_Part 1, Coxa Link 2_Part 2, Femur Part 1, Femur Part 2, Tibia, Servo Mount Coxa Bottom, Servo Mount Coxa Middle
@@ -45,9 +47,11 @@ Material used is PET-G
 
 12. Now you have finished 6 legs.
 
-13. Next take the legs and securthem in the designated spots with m3 x 10 mm screws. Repeat this 6 times.
+13. Next take the legs and secure them in the designated spots with m3 x 10 mm screws. Repeat this 6 times.
 
-14. Now u have a finished Assembled hexapod.
+14. Then finish the design with the top plate with m3 x 10 mm screws and heated inserts.
+
+15. Now u have a finished Assembled hexapod.
 
 
 ## Circuit Diagram
